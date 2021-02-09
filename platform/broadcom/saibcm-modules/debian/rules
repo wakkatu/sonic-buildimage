@@ -169,7 +169,7 @@ binary-arch: build install
 #	dh_installemacsen -s
 #	dh_installpam -s
 #	dh_installmime -s
-	dh_installmodules -s
+#	dh_installmodules -s
 	dh_systemd_enable -s
 	dh_installinit -s
 	dh_systemd_start -s
